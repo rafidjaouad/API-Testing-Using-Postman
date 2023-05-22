@@ -1,0 +1,7 @@
+To globally install the htmlextra package:
+npm install -g newman-reporter-html
+npm install -g newman-reporter-htmlextra
+
+newman run FlightTicket.postman_collection.json -e bug7.postman_environment.json
+newman run FlightTicket.postman_collection.json -e bug7.postman_environment.json -r cli,html
+

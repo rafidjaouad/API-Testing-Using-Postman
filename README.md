@@ -40,7 +40,9 @@ we can use this command for better interface : newman run FlightTicket.postman_c
 If the reports are not generation correctly or says html packages not found try using this commands on globally
 
 **To globally install the htmlextra package:**
+ 
  npm install -g newman-reporter-html
+ 
  npm install -g newman-reporter-htmlextra
 
 
